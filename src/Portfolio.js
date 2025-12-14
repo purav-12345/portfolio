@@ -169,9 +169,9 @@ const [activeProject, setActiveProject] = React.useState(-1);
     period: "January 2025 - Present",
     location: "Onsite",
     points: [
-      "Built ATME-based biometric models with frequency-domain preprocessing, achieving a 22.3% SSIM improvement over DiT and superior FID scores of 25.12 on PolyU and 26.14 on TDFD. [cite: 26]",
-      "Developed a U-Net-based BioPix2Pix architecture for fingerprint super-resolution, achieving complete minutiae preservation and ridge integrity across test datasets. [cite: 27]",
-      "Collaborated with UIDAI, Government of India, to develop a liveness detection system integrating gesture recognition, knuckle detection, and hand-tracking for robust anti-spoofing. [cite: 28]",
+      "Built ATME-based biometric models with frequency-domain preprocessing, achieving a 22.3% SSIM improvement over DiT and superior FID scores of 25.12 on PolyU and 26.14 on TDFD.",
+      "Developed a U-Net-based BioPix2Pix architecture for fingerprint super-resolution, achieving complete minutiae preservation and ridge integrity across test datasets. ",
+      "Collaborated with UIDAI, Government of India, to develop a liveness detection system integrating gesture recognition, knuckle detection, and hand-tracking for robust anti-spoofing. ",
     ],
   },
   {
@@ -180,9 +180,9 @@ const [activeProject, setActiveProject] = React.useState(-1);
     period: "February 2025 - Present",
     location: "Remote",
     points: [
-      "Developed and implemented a flipped-classroom LMS for three courses and 75 students, integrating course-builder tools, multimedia learning content, and analytics dashboards. [cite: 33]",
-      "Implemented engagement tracking modules leveraging video-interaction analytics (clickstream, pause/rewind ratio) and quiz performance analysis, achieving a 28% increase in pre-class material completion rate. [cite: 34]",
-      "Integrated an AI-based pre-class Q&A chatbot that resolved 41% of student queries, reduced instructor workload by 35%, and improved learning outcomes, with 60% of students demonstrating stronger self-regulated learning. [cite: 35]",
+      "Developed and implemented a flipped-classroom LMS for three courses and 75 students, integrating course-builder tools, multimedia learning content, and analytics dashboards.",
+      "Implemented engagement tracking modules leveraging video-interaction analytics (clickstream, pause/rewind ratio) and quiz performance analysis, achieving a 28% increase in pre-class material completion rate. ",
+      "Integrated an AI-based pre-class Q&A chatbot that resolved 41% of student queries, reduced instructor workload by 35%, and improved learning outcomes, with 60% of students demonstrating stronger self-regulated learning. ",
     ],
   },
   {
@@ -191,9 +191,9 @@ const [activeProject, setActiveProject] = React.useState(-1);
     period: "February 2025 - Present",
     location: "Onsite",
     points: [
-      "Conducted and supervised 2 PSOOP lab batches, designing coding exercises, grading rubrics, and performance tracking; compiled the Course Attainment File for accreditation. [cite: 39, 40]",
-      "Provided academic support for Artificial Intelligence and Soft Computing by handling 4 laboratory batches and 2 theory classes. [cite: 41]",
-      "Curated presentations, lab tasks, and laboratory experiments for Artificial Intelligence and Soft Computing. [cite: 42]",
+      "Conducted and supervised 2 PSOOP lab batches, designing coding exercises, grading rubrics, and performance tracking; compiled the Course Attainment File for accreditation. ",
+      "Provided academic support for Artificial Intelligence and Soft Computing by handling 4 laboratory batches and 2 theory classes. ",
+      "Curated presentations, lab tasks, and laboratory experiments for Artificial Intelligence and Soft Computing. ",
     ],
   },
   {
@@ -212,8 +212,8 @@ const [activeProject, setActiveProject] = React.useState(-1);
     period: "February 2025 - July 2025",
     location: "Onsite",
     points: [
-      "Applied advanced NLP on 150K+ citizen feedback records, uncovering 30% awareness and accessibility gaps that informed targeted digital-governance interventions. [cite: 47]",
-      "Designed STEM learning interventions for underprivileged children by combining literature review from 40+ studies and 200+ field responses. [cite: 48]",
+      "Applied advanced NLP on 150K+ citizen feedback records, uncovering 30% awareness and accessibility gaps that informed targeted digital-governance interventions. ",
+      "Designed STEM learning interventions for underprivileged children by combining literature review from 40+ studies and 200+ field responses. ",
     ],
   },
   {
@@ -233,8 +233,8 @@ const [activeProject, setActiveProject] = React.useState(-1);
     period: "July 2024 - August 2024",
     location: "Remote",
     points: [
-      "Developed an NLP-based classification framework leveraging BERT, boosting customer response classification accuracy by 10 percent, with an F1-score of 0.80 and Precision of 84 percent. [cite: 53]",
-      "Engineered a market trend-driven prioritization model using time-series forecasting with Prophet and feature engineering, improving prioritization outcomes by 10 percent and reducing RMSE from 14.1 to 12.4. [cite: 54]",
+      "Developed an NLP-based classification framework leveraging BERT, boosting customer response classification accuracy by 10 percent, with an F1-score of 0.80 and Precision of 84 percent. ",
+      "Engineered a market trend-driven prioritization model using time-series forecasting with Prophet and feature engineering, improving prioritization outcomes by 10 percent and reducing RMSE from 14.1 to 12.4. ",
     ],
   },
   {
@@ -243,9 +243,9 @@ const [activeProject, setActiveProject] = React.useState(-1);
     period: "June 2024 - July 2024",
     location: "Onsite",
     points: [
-      "Developed credit risk variables by integrating bureau data with SMS-based alternate data, improving AUC and K-S metrics by 8% and 5% in underwriting models for creditworthiness. [cite: 58]",
-      "Formulated an ensemble model integrating DPD (Days Past Due), Repeatability, Bureau (CIBIL/Equifax), and DPD-agnostic analyses to evaluate customer behavior, achieving a 4% portfolio risk for 90+ NPA. [cite: 59]",
-      "Applied Zero-Shot Classification with a large language model (LLM) to perform multi-class categorization of customer queries and sub-queries, achieving 80% classification accuracy. [cite: 60]",
+      "Developed credit risk variables by integrating bureau data with SMS-based alternate data, improving AUC and K-S metrics by 8% and 5% in underwriting models for creditworthiness. ",
+      "Formulated an ensemble model integrating DPD (Days Past Due), Repeatability, Bureau (CIBIL/Equifax), and DPD-agnostic analyses to evaluate customer behavior, achieving a 4% portfolio risk for 90+ NPA. ",
+      "Applied Zero-Shot Classification with a large language model (LLM) to perform multi-class categorization of customer queries and sub-queries, achieving 80% classification accuracy.",
     ],
   },
 ];
@@ -497,6 +497,154 @@ const publications = [
           </div>
         </div>
       </section>
+
+{/* <section id="experience" className="py-24 bg-black relative">
+  <h2 className="text-4xl font-bold text-center text-cyan-400 mb-20">
+    Experience
+  </h2>
+
+ 
+  <div className="absolute left-1/2 top-40 bottom-20 w-[2px] bg-gray-600"></div>
+
+  <div className="max-w-7xl mx-auto space-y-32 px-6">
+    {experiences.map((exp, index) => {
+      const isRight = index % 2 === 0;
+
+      return (
+        <div key={index} className="relative flex items-start">
+
+         
+          {!isRight && (
+            <div className="w-1/2 pr-16 text-right">
+              <h3 className="text-2xl font-semibold text-green-400">
+                {exp.title}
+              </h3>
+
+              <p className="text-lg text-white mt-1">
+                {exp.company}
+              </p>
+
+              <p className="text-sm text-gray-400 mt-1">
+                {exp.period} · {exp.location}
+              </p>
+
+              
+              <ul className="mt-4 space-y-3 text-gray-300 text-sm leading-relaxed">
+                {exp.points.map((point, i) => (
+                  <li key={i}>• {point}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          
+          <div className="absolute left-1/2 -translate-x-1/2 mt-2">
+            <div className="w-4 h-4 rounded-full bg-green-400"></div>
+          </div>
+
+          
+          {isRight && (
+            <div className="w-1/2 pl-16 text-left">
+              <h3 className="text-2xl font-semibold text-green-400">
+                {exp.title}
+              </h3>
+
+              <p className="text-lg text-white mt-1">
+                {exp.company}
+              </p>
+
+              <p className="text-sm text-gray-400 mt-1">
+                {exp.period} · {exp.location}
+              </p>
+
+              
+              <ul className="mt-4 space-y-3 text-gray-300 text-sm leading-relaxed">
+                {exp.points.map((point, i) => (
+                  <li key={i}>• {point}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+        </div>
+      );
+    })}
+  </div>
+</section> */}
+
+{/* 
+<section id="experience" className="py-24 bg-black relative">
+  <h2 className="text-4xl font-bold text-center text-cyan-400 mb-20">
+    Experience
+  </h2>
+
+ 
+  <div className="absolute left-1/2 top-40 bottom-20 w-[2px] bg-gray-600"></div>
+
+  <div className="max-w-7xl mx-auto space-y-32 px-6">
+    {experiences.map((exp, index) => {
+      const isLeft = index % 2 === 0;
+
+      return (
+        <div key={index} className="relative flex w-full">
+
+          
+          {isLeft && (
+            <div className="w-1/2 pr-16">
+              <h3 className="text-2xl font-semibold text-green-400">
+                {exp.title}
+              </h3>
+
+              <p className="text-lg text-white mt-1">
+                {exp.company}
+              </p>
+
+              <p className="text-sm text-gray-400 mt-1">
+                {exp.period} · {exp.location}
+              </p>
+
+              <ul className="mt-4 space-y-3 text-gray-300 text-sm leading-relaxed">
+                {exp.points.map((point, i) => (
+                  <li key={i}>• {point}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+         
+          <div className="absolute left-1/2 -translate-x-1/2 top-2">
+            <div className="w-4 h-4 rounded-full bg-green-400"></div>
+          </div>
+
+         
+          {!isLeft && (
+            <div className="w-1/2 pl-16 ml-auto">
+              <h3 className="text-2xl font-semibold text-green-400">
+                {exp.title}
+              </h3>
+
+              <p className="text-lg text-white mt-1">
+                {exp.company}
+              </p>
+
+              <p className="text-sm text-gray-400 mt-1">
+                {exp.period} · {exp.location}
+              </p>
+
+              <ul className="mt-4 space-y-3 text-gray-300 text-sm leading-relaxed">
+                {exp.points.map((point, i) => (
+                  <li key={i}>• {point}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+        </div>
+      );
+    })}
+  </div>
+</section> */}
+
 
       
       {/* <section id="projects" className="py-20 px-6" style={{backgroundColor: `rgba(249, 250, 251, ${bgOpacity})`}}>
